@@ -45,3 +45,8 @@ type Contex interface{
 - Mengirimkan sinyal cancel atau pembatalan setelah jangka waktu tertentu
 - Tidak perlu mengirim sinyal cancel secara manual
 - `context.WithTimeout(parent, duration)`
+
+## Context with Deadline
+- Mengirim sinyal cancel dengan deadline tertentu
+- Tidak perlu mengirim sinyal cancel secara manual
+- `context.WithDeadline(parent, time)`
